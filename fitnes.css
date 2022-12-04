@@ -1,0 +1,448 @@
+
+body{
+    background-color: #404040;
+    margin:0;
+}
+
+header{
+    background-color: #A6EF76;
+    display: flex;
+    justify-content: space-between;
+}
+
+#logo{
+    width: 90px;
+}
+
+li {
+    list-style-type: none;
+    display: inline-block;
+    justify-content: space-around;
+}
+  
+a {
+    display: block;
+    padding: 8px;
+    color: black;
+    font-weight: 800;
+    font-size: x-large;
+    text-decoration: none;
+    margin: 15px;
+}
+
+#mojlogo{
+    display: inline-block;
+    width: 49%;
+}
+
+#nav{
+    display: inline-block;
+    width: 60%;
+    padding: 0 10px 0 10px;
+}
+
+#slika1{
+    width: 450px;
+    height:700px;
+    top:250px;
+    right:0;
+}
+
+#glavni{
+    background-color: #202020;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#levi{
+    flex: 2;
+    text-align: center;
+    
+}
+
+#levi h1, h4, p{
+    color: white;
+}
+
+#desni{
+    flex: 1;
+}
+
+.gym{
+    background-color: #404040;
+    display: flex;
+}
+
+.gym h1, p{
+    color: white;
+}
+
+.gymL{
+    flex: 1;
+}
+
+.gymD{
+    flex: 2;
+}
+
+.gymimg{
+    width: 500px;
+    height:300px;
+    right:0;
+}
+
+.button{
+    background-color: #A6EF76;
+    border-style: outset;
+    display: inline-block;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.buttontxt{
+    color: rgb(0, 0, 0);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+
+}
+
+
+footer{
+    background-color:  #202020;
+}
+
+#insta{
+    width: 30px;
+    height:30px;
+    right:0;
+}
+
+#facebook{
+    width: 30px;
+    height:30px;
+    right:0;
+}
+
+#wa{
+    width: 30px;
+    height:30px;
+    right:0;
+}
+
+#drustveno{
+    color:#202020;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 150px;
+    gap: 25px;
+}
+
+
+#copyright{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.gymstr{
+    background-color: #131413;
+}
+
+
+
+#naslov{
+    color: white;
+    text-align: center;
+}
+
+#glavnigym{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#glgymL{
+    flex: 1;
+}
+
+#slika2{
+    width: 500px;
+    height:650px;
+    top:250px;
+    
+    
+}
+
+#glgymD{
+    flex: 2;
+    color: white;
+    text-align: left;
+
+}
+
+
+.naslov{
+    color: white;
+    text-align: center;
+}
+
+.treninzi{
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#trening1{
+    flex: 1;
+    border-right: 1px solid white;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+#trening2{
+    flex: 1;
+    border-right: 1px solid white;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+#trening3{
+    flex: 1;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.cenovnik{
+    color: white;
+    display: flex;
+    justify-content: center;
+    
+}
+
+#grupni{
+    background-color: #131413;
+}
+
+#naslov5{
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+#slika5{
+    display: flex;
+    justify-content: center;
+}
+
+.lista{
+    color: white;
+}
+
+#slika6{
+    display: flex;
+    justify-content: center;
+}
+
+.button2{
+    background-color: white;
+    border-style: outset;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); 
+}
+
+.buttontxt2{
+    color: rgb(0, 0, 0);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+}
+
+#greska{
+    width: 450px;
+    height:500px;
+    margin: 0;
+    position: absolute;
+    top: 25px;
+    left: 700px;
+
+}
+
+
+.detalji{
+    background-color: #202020;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.podaciL{
+    flex: 1;
+}
+
+.podaciD{
+    flex: 2;
+}
+
+#slika7{
+    width: 400px;
+    height:350px;
+    right: 0;
+}
+
+/* Registracija */
+
+.main{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, black, grey);
+}
+
+.container{
+    max-width: 700px;
+    width: 100%;
+    background: #A6EF76;
+    padding: 25px 30px;
+    border-radius: 5px;
+}
+
+.container .title{
+    font-size: 25px;
+    position: relative;
+}
+
+.container form .user-details{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+form .user-details .input-box{
+    width: calc(100% / 2 - 20px);
+    margin: 20px 0 12px 0;
+}
+
+.user-details .input-box .details{
+    display: block;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.user-details .input-box input{
+    height: 45px;
+    width: 100%;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding-left: 15px;
+    font-size: 16px;
+}
+
+form .button3{
+    height: 45px;
+    margin: 45px 0;
+}
+
+form .button3 input{
+    height: 100%;
+    width: 100%;
+    outline: none;
+    color: #fff;
+    border: none;
+    background:#404040;
+}
+
+/* Izmena korisnika */
+
+.table1{
+    background-color: #404040;;
+    padding: 15px;
+    text-align: left;
+    width: 98%;
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 1.2em;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+table, th, td {
+    border: 1px solid;
+    padding: 0.25rem;
+    text-align: center;
+    border: 1px solid #ccc;
+  }
+
+.button4{
+    height: 55px;
+    margin: 45px 0;
+    background-color: #A6EF76;
+    border-style: outset;
+    display: inline-block;
+    font-weight: 600;
+    font-size: large;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.button4 a{
+    margin:0;
+    font-weight: 600;
+    font-size: large;
+}
+
+
+/* Izmena fitnes centara  */
+
+
+.table2{
+    background-color: #404040;;
+    padding: 15px;
+    text-align: left;
+    width: 98%;
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 1.2em;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+table, th, td {
+    border: 1px solid;
+    padding: 0.25rem;
+    text-align: center;
+    border: 1px solid #ccc;
+  }
+
+
+@media only screen and (max-width: 900px){
+
+    .container{
+        width: 100%;
+    }
+
+    nav ul{
+        background-color: #A6EF76;
+    }
+
+    nav ul li{
+        display: block;
+    }
+
+}
