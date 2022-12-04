@@ -392,6 +392,7 @@ table, th, td {
     padding: 0.25rem;
     text-align: center;
     border: 1px solid #ccc;
+    color: white;
   }
 
 .button4{
