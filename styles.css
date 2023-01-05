@@ -1,11 +1,13 @@
-
-body{
+#body1{
+    background-color: #202020;
+}
+.body{
     background-color: #404040;
     margin:0;
 }
 
 header{
-    background-color: #A6EF76;
+    background-color: #FFDEBC;
     display: flex;
     justify-content: space-between;
 }
@@ -19,6 +21,12 @@ li {
     display: inline-block;
     justify-content: space-around;
 }
+
+#nav ul li a{
+    text-decoration: none;
+    color:black;
+    text-transform:  uppercase;
+}
   
 a {
     display: block;
@@ -30,14 +38,19 @@ a {
     margin: 15px;
 }
 
+#login{
+    width: 45px;
+}
+
+
 #mojlogo{
     display: inline-block;
     width: 49%;
 }
 
 #slika1{
-    width: 450px;
-    height:700px;
+    width: 600px;
+    height:650px;
     top:250px;
     right:0;
 }
@@ -87,7 +100,7 @@ a {
 }
 
 .button{
-    background-color: #A6EF76;
+    background-color: #FFDEBC;
     border-style: outset;
     display: inline-block;
     border-radius: 12px;
@@ -309,9 +322,10 @@ footer{
     right: 0;
 }
 
+
 /* Registracija */
 
-.main{
+.popup{
     display: flex;
     height: 100vh;
     justify-content: center;
@@ -319,20 +333,29 @@ footer{
     background: linear-gradient(135deg, black, grey);
 }
 
-.container{
+/* .close{
+    position: absolute;
+    top: -15px;
+    right: -15px;
+    background:  #fff;
+    height: 200px;
+    width: 20px;
+} */
+
+.popup-content{
     max-width: 700px;
     width: 100%;
-    background: #A6EF76;
+    background: #FFDEBC;
     padding: 25px 30px;
     border-radius: 5px;
 }
 
-.container .title{
+.popup-content .title{
     font-size: 25px;
     position: relative;
 }
 
-.container form .user-details{
+.popup-content form .user-details{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -373,6 +396,7 @@ form .button3 input{
     background:#404040;
 }
 
+
 /* Izmena korisnika */
 
 .table1{
@@ -398,7 +422,7 @@ table, th, td {
 .button4{
     height: 55px;
     margin: 45px 0;
-    background-color: #A6EF76;
+    background-color: #FFDEBC;
     border-style: outset;
     display: inline-block;
     font-weight: 600;
@@ -437,7 +461,7 @@ table, th, td {
     }
 
     nav ul{
-        background-color: #A6EF76;
+        background-color: #FFDEBC;
     }
 
     nav ul li{
@@ -445,3 +469,49 @@ table, th, td {
     }
 
 }
+
+
+/* button */
+
+
+.first-button {
+    border-radius: 10px;
+    border: none;
+    position: relative;
+    color: white;
+    font-size: 8px;
+    padding: 5px 10px;
+    transform: translate(-3%, -3%);
+    background: #FFDEBC;
+    transition: box-shadow .35s ease !important;
+    outline: none;
+    
+    }
+    
+    
+    .first-button:active {  
+    
+    background: linear-gradient(145deg, white);
+    box-shadow:  5px 5px 10px #262626, 
+                 -5px -5px 10px #262626;
+    border: none;
+    
+    }
+
+    .popup .close-btn {
+        color: white;
+        font-size: 30px;
+        border-radius: 50%;
+        background: #292929;
+        position: absolute;
+        right: 20px;
+        top: 20px;
+        width: 30px;
+        padding: 2px 5px 7px 5px;
+        height: 30px;
+        box-shadow:  5px 5px 15px #1e1e1e, 
+       
+                    -5px -5px 15px #1e1e1e;
+       
+        }
+       

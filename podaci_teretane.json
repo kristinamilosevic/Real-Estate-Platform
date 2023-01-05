@@ -1,0 +1,371 @@
+{
+    "fitnesCentri": {
+      "-MNQgy9N5foEWTmmA_1U": {
+        "naziv": "Snap Fitness",
+        "adresa": "Lasla Gala 1, Novi Sad 21102",
+        "godinaOtvaranja": 2012,
+        "slika": "https://i.imgur.com/KwGfIaU.jpeg",
+        "brojDostupnihTreninga": 3,
+        "mesecnaClanarina": 2000,
+        "idTreninga": "-MNVEu6iMr2EFlQO6TW61",
+        "prosecnaOcena": 4.8,
+        "ocene": [1, 2, 4, 7, 10]
+      },
+      "-MNQftJa4rskH-dBqE9Z": {
+        "naziv": "Mega Gym",
+        "adresa": "Temerinska 2, Novi Sad 21138",
+        "godinaOtvaranja": 2020,
+        "slika": "https://i.imgur.com/ynE6g4Y.jpeg",
+        "brojDostupnihTreninga": 7,
+        "mesecnaClanarina": 2500,
+        "idTreninga": "-MNVEu6iMr2EFlQO6TW61",
+        "prosecnaOcena": 6.71,
+        "ocene": [10, 3, 4, 7, 10,6,7]
+      },
+      "-MNQg8Nd8YPRs-5Kbgqu": {
+        "naziv": "Koloseum Trening Centar",
+        "adresa": "Stevana Hristića 5, Novi Sad 21137",
+        "godinaOtvaranja": 2019,
+        "slika": "https://i.imgur.com/FxPtm72.jpeg",
+        "brojDostupnihTreninga": 5,
+        "mesecnaClanarina": 2600,
+        "idTreninga": "-MNVEu6iMr2EFlQO6TW60",
+        "prosecnaOcena": 6.8,
+        "ocene": [4, 7, 10,6,7]
+      },
+      "-MNQgI0t2nV3AT1YxNAr": {
+        "naziv": "IM FIT Pro",
+        "adresa": "Bulevar Oslobođenja 119, Novi Sad 21100",
+        "godinaOtvaranja": 2018,
+        "slika": "https://i.imgur.com/JIdPwXX.jpeg",
+        "brojDostupnihTreninga": 10,
+        "mesecnaClanarina": 2600,
+        "idTreninga": "-MNVEu6iMr2EFlQO6TW62",
+        "prosecnaOcena": 5.87,
+        "ocene": [1,2,5,6,3,9,10, 3, 4, 7, 10,6,7,4,8,9]
+
+      },
+      "-MNQgO7Cm756dkG36efQ": {
+        "naziv": "Her Gym",
+        "adresa": "Jurija Gagarina 22, Beograd 11070",
+        "godinaOtvaranja": 2015,
+        "slika": "https://i.imgur.com/e5NVIIT.jpeg",
+        "brojDostupnihTreninga": 10,
+        "mesecnaClanarina": 2600,
+        "idTreninga": "-MNVEu6iMr2EFlQO6TW62",
+        "prosecnaOcena": 7.33,
+        "ocene": [10,6,7,4,8,9]
+      },
+      "-MNQgUTr_lN9O7L8AoUS": {
+        "naziv": "Strong Gym",
+        "adresa": "Marka Kraljevica 20, Beograd 11070",
+        "godinaOtvaranja": 2017,
+        "slika": "https://i.imgur.com/e5NVIIT.jpeg",
+        "brojDostupnihTreninga": 10,
+        "mesecnaClanarina": 3900,
+        "idTreninga": "-MNVEu6iMr2EFlQO6TW62",
+        "prosecnaOcena":5,
+        "ocene": [ 3, 4, 7, 10,6,7,4,8]
+      },
+      "-MNQgfzXvQgwB8K-SVfF": {
+        "naziv": "Gladijator",
+        "adresa": "Dančićeva 3, Kragujevac",
+        "godinaOtvaranja": 2018,
+        "slika": "https://i.imgur.com/y7ejW7Z.jpg",
+        "brojDostupnihTreninga": 10,
+        "mesecnaClanarina": 2900,
+        "idTreninga": "-MNVEu6iMr2EFlQO6TW62",
+        "prosecnaOcena": 7.53,
+        "ocene": [9, 4, 7, 10,6,7,4,8,9,10,9,8,7]
+      },
+      "-MNQgnHVDMtvSasYG0C8": {
+        "naziv": "Miss Fit",
+        "adresa": "Vidovdanska 26, Kruševac",
+        "godinaOtvaranja": 2008,
+        "slika": "https://i.imgur.com/G0ObAXp.jpeg",
+        "brojDostupnihTreninga": 10,
+        "mesecnaClanarina": 2500,
+        "idTreninga": "-MNVEu6iMr2EFlQO6TW62",
+        "prosecnaOcena": 6.5,
+        "ocene": [9, 4]
+      },
+      "-MNQg_nhfUBoPJKBu72e": {
+        "naziv": "Tip Top - Novi Sad",
+        "adresa": "Ignjata Pavlasa 4, Novi Sad",
+        "godinaOtvaranja": 2008,
+        "slika": "https://i.imgur.com/B4Fk4k5.jpeg",
+        "brojDostupnihTreninga": 10,
+        "mesecnaClanarina": 2500,
+        "idTreninga": "-MNVEu6iMr2EFlQO6TW62",
+        "prosecnaOcena": 6.67,
+        "ocene": [9, 4, 7]
+      }
+    },
+    "treninzi": {
+        "-MNVEu6iMr2EFlQO6TW61": {
+          "-MNQftJa4rskH-dBqE9Z0": {
+            "naziv": "Radža joga",
+            "kratakOpis": "Radža joga je put kojim se stiče sposobnost upravljanja umnim procesima na putu dostizanja viših nivoa svesnosti.",
+            "trajanje": "90",
+            "zanr": "Joga",
+            "opis": "Radža joga se naziva i kraljevskim putem joge ili osmočlanom stazom. Radža joga je put samodiscipline i vežbanja. Radža znači kralj. Kralj je u svojim postupcima samosvestan, samostalan i siguran u sebe. Tako je i radža jogi samostalan, nezavistan i neustrašiv. Put radža joge naziva se još i aštang joga (osmočlana joga) jer se sastoji od osam delova. Ovih osam stupnjeva radža joge predstavljaju uputstvo za postupno postizanje unutarnjeg mira, jasnoće, samokontrole i spoznaje. Praktikovanjem tehnika joge postiže se veća emotivna uravnoteženost, odsustvo doživljaja uskraćenosti i destrukcije, zadovoljstvo sobom, osećanje smisla života, poznavanje sopstvenog načina reagovanja – kroz usredsređivanje pažnje na dešavanja u svom telu, usporavanje i produbljivanje disanja, sklad disanja i pokreta, telesnu i mentalnu relaksaciju. Na taj način se podstiče i okrenutost sadašnjosti, utemeljnost u realnosti i perspektivno posmatranje budućnosti.",
+            "maxOsobe": 9
+          },
+          "-MNQftJa4rskH-dBqE9Z1": {
+            "naziv": "Hata joga",
+            "kratakOpis": "Hata joga je put gde se u upregnuću ka višim nivoima svesnosti dominantno praktikuju joga asane, pranajame ali i sve ostale metode koje opisuje Patanjđali.",
+            "trajanje": "100",
+            "zanr": "Joga",
+            "opis": "Hata joga je najzastupljenija grana joge danas. Širom sveta održavaju se časovi hata joge za dobrobit fizičkog i mentalnog stanja čoveka, i u najvećoj meri sastoje se iz fizičkih položaja ili asana i njima se u svakom slučaju poklanja daleko najveća pažnja.U zaostavštini klasične joge nailazimo na nekoliko važnih tekstova o hata jogi, kao što su Hata joga pradipika, Geranda samhita, Gorakša samhita i Hata joga ratnavali koji su nastali između 6. i 9. veka nove ere. U upanišadama takođe nalazimo reference o hata joga praksama, a upanišade su nastale pre Budizma (6. vek pre nove ere). Ako uzmemo u obzir činjenicu da oralna tradicija drevnih znanja u koja spada i joga, predhodi vekovima nastanku pisanih tekstova, možemo da zaključimo da je hata joga prisutna u ljudskoj rasi oko tri hiljade godina, a moguće je i znatno duže.",
+            "maxOsobe": 15
+          },
+          "-MNQftJa4rskH-dBqE9Z2": {
+            "naziv": "Body Combat",
+            "kratakOpis": "Body Combat je energičan trening koji kombinuje pokrete više borilačkih veština, koji će vam pomoći da budete fit, brzi i snažni. Nakon treninga Body Combata osećate se osnaženo i moćno.",
+            "trajanje": "120",
+            "zanr": "Cardio",
+            "opis": "Body Combat je kardio trening inspirisan borilačkim veštinama. Kombinacija karatea, tekvondoa, kik boksa i tai čija uz moćnu muziku nateraće te da se pokreneš i daš svoj maksimum na svakom treningu.Iako iz svake borilačke veštine uzima deo, Body Combat je programiran tako da rezultati ne izostaju. Da li si spreman da probudiš ratnika u sebi? Body Combat je namenjen svima – početnicima i profesionalcima. U toku celog treninga možeš da biraš između različitih nivoa intenziteta. Tako bez obzira na kondiciju, na svakom treningu možeš dati svoj maksimum.Body Combat će poboljšati rad tvog srca i pluća. Odličan je ako želiš da sagoriš veliki broj kalorija na jednom treningu, zategneš i oblikuješ mišiće. Unaprediš koordinaciju, pokretljivost i stabilnost, a salu ćeš napustiti s osmehom i višim samopouzdanjem.",
+            "maxOsobe": 45
+          },
+          "-MNQftJa4rskH-dBqE9Z3": {
+            "naziv": "Body Balance",
+            "kratakOpis": "Body Balance je trening fleksibilnosti koji kombinuje elemente Yoge, pilatesa i tai-čija. Istezanje, pokreti prilagođeni opuštajućoj muzici i duboko disanje su kombinacija koja će učiniti da trening napustiš smiren i opušten.",
+            "trajanje": "110",
+            "zanr": "Fleksibilnost",
+            "opis": "Body Balance je trening fleksibilnosti koji kombinuje elemente Yoge, pilatesa i tai-čija. Istezanje, pokreti prilagođeni opuštajućoj muzici i duboko disanje su kombinacija koja će učiniti da trening napustiš smiren i opušten.Ne samo da će te opustiti – Body Balance će unaprediti i tvoju snagu i fleksibilnost. Bićeš pripremljen da na sledećem intenzivnom treningu ostvariš bolje rezultate i pomoći ti da vežbe izvodiš pravilnije. Body Balance je namenjen svima – pokreti su jednostavni, ne zahtevaju savršenu koordinaciju, a intenzitet nije visok. U benefitima ovog treninga uživaćeš i ako si tek počeo sa treningom i ako redovno treniraš.Body Balance će poboljšati tvoje držanje, snagu i fleksibilnost, i smanjiti bol u leđima. Pripremiće te za naredni trening i smanjiti mogućnost od povreda. Ovaj trening će ti pomoći da kontrolišeš disanje – nećeš izgubiti dah već na početku treninga.Body Balance će redukovati stres i učiniti da salu fitnes centra napustiš uz široki osmeh.",
+            "maxOsobe": 60
+          },
+          "-MNQftJa4rskH-dBqE9Z4": {
+            "naziv": "Body Pump",
+            "kratakOpis": "Body Pump je trening s opterećenjem, idealan za one koji žele oblikovane i jake mišiće. Umerena opterećenja i veliki broj ponavljanja su idealna kombinacija koja – naučno dokazano – daje rezultate.",
+            "trajanje": "145",
+            "zanr": "Snaga",
+            "opis": "Body Pump je trening s opterećenjem, idealan za one koji žele oblikovane i jake mišiće. Umerena opterećenja i veliki broj ponavljanja su idealna kombinacija koja – naučno dokazano – daje rezultate.Uspeh Body Pumpa zasniva se na REP efektu, odnosno velikom broju ponavljanja. Na samo jednom treningu odradićeš gotovo 1000 ponavljanja, a moćna muzika motivisaće te da nastaviš. Body Pump trening namenjen je svima, bez obzira da li si tek započeo svoje fitnes putovanje ili je trening tvoja svakodnevnica. Instruktor će ti u toku treninga pokazati opcije višeg i nižeg intenziteta, a u skladu sa kondicijom možeš birati opterećenje.Benefiti Body Pumpa su brojni: povećanje snage i izdržljivosti, jačanje mišića i oblikovanje mišića. Trening će ti pomoći da očuvaš zdravlje kostiju i da odmoriš nakon napornog dana. Sve što ti je potrebno za Body Pump trening su čiste patike, voda, peškir i komotna sportska oprema. Mi imamo sve ostalo!",
+            "maxOsobe": 20
+          },
+          "-MNQftJa4rskH-dBqE9Z5": {
+            "naziv": "Les Mills Tone",
+            "kratakOpis": "",
+            "trajanje": "90",
+            "zanr": "Snaga",
+            "opis": "Les Mills Tone koji kombinuje segmente treninga snage, kardio i core treninga – i sve to u jednom treningu.Ovaj trening premijeru na svetskoj fitnes sceni imao je na početku 2018. godine, ali zbog kombinacije vežbi i dobre muzike brzo je postao omiljen u fitnes centrima širom sveta.Les Mills Tone sadrži miks vežbi koje će pokrenuti celo telo i ubrzati puls. Potrošićeš veliki broj kalorija, izgraditi snagu, ali i povećati nivo fleksibilnosti, balansa i snagu core mišića.Les Mills Tone pokupio je simpatije vežbača širom sveta baš zbog toga što odgovara svima – zabavićeš se i postići željene rezultate. Možeš birati različite nivoe intenziteta, od višeg do nižeg intenziteta, i tako trening prilagoditi sebi. Pokreti su jednostavni, a rezultati se zasnivaju na kombinaciji različitih elemenata. Les Mills Tone kombinuje elemente kardio treninga, core treninga i treninga snage, a daje ti benefite svih ovih treninga.Les Mills Tone će ti pomoći da razviješ kondiciju i fleksibilnost i sagoriš veliki broj kalorija za kratko vreme. Razvićeš snagu, povećati nivo energije i fleksibilnosti. Ovaj trening osnažiće tvoj core, što će ti pomoći da ostvariš bolje rezultate na ostalim treninzima.",
+            "maxOsobe": 15
+          },
+          "-MNQftJa4rskH-dBqE9Z6": {
+            "naziv": "Glute & Core",
+            "kratakOpis": "Glute & Core trening je tvoja osnova za snažno telo i cilj mu je da ojača, kao što ime kaže, tvoje core mišiće – one koji daju potporu kičmi. Kada je tvoj core jak, svakodnevne obaveze postaju mnogo lakše, a na sledećem treningu moći ćeš da pružiš maksimum i ostvariš bolje rezultate.",
+            "trajanje": "40",
+            "zanr": "Snaga",
+            "opis": "Glute & Core trening je tvoja osnova za snažno telo i cilj mu je da ojača, kao što ime kaže, tvoje core mišiće – one koji daju potporu kičmi.Kada je tvoj core jak, svakodnevne obaveze postaju mnogo lakše, a na sledećem treningu moći ćeš da pružiš maksimum i ostvariš bolje rezultate.Glute & Core trening će odgovarati svima, bez obzira na to da li si tek krenuo da treniraš ili je trening tvoja svakodnevnica.Uvek možeš birati između lakših i težih modifikacija, i tako prilagoditi trening sebi – neće biti previše teško, te ćeš moći da ispratiš trening, ali neće biti ni lako tako da trening ostaje izazovan. Core trening te priprema za svakodnevne aktivnosti, kao što je penjanje uz stepenice, ali te i priprema za naredni trening.Cilj treninga je da poboljša tvoju funkcionalnost, poveća snagu tela i oblikuje stomak i telo. Glute & Core trening je odličan i za prevenciju povreda.Sve što ti je potrebno za Glute & Coretrening su čiste patike, voda, peškir i komotna sportska oprema. Mi imamo sve ostalo!",
+            "maxOsobe": 20
+          }
+        },
+        "-MNVEu6iMr2EFlQO6TW62": {
+            "-MNQftJa4rskH-dAqR9W0": {
+                "naziv": "Lorem ipsum dolor 1",
+                "kratakOpis": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+                "trajanje": "70",
+                "zanr": "Joga",
+                "opis": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.",
+                "maxOsobe": 20
+            },
+            "-MNQftJa4rskH-dAqR9W1": {
+                "naziv": "Lorem ipsum dolor 2",
+                "kratakOpis": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+                "trajanje": "70",
+                "zanr": "Snaga",
+                "opis": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.",
+                "maxOsobe": 20
+            },
+            "-MNQftJa4rskH-dAqR9W2": {
+                "naziv": "Lorem ipsum dolor 3",
+                "kratakOpis": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+                "trajanje": "60",
+                "zanr": "Snaga",
+                "opis": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.",
+                "maxOsobe": 60
+            },
+            "-MNQftJa4rskH-dAqR9W3": {
+                "naziv": "Lorem ipsum dolor 4",
+                "kratakOpis": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+                "trajanje": "100",
+                "zanr": "Joga",
+                "opis": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.",
+                "maxOsobe": 20
+            },
+            "-MNQftJa4rskH-dAqR9W4": {
+                "naziv": "Lorem ipsum dolor 5",
+                "kratakOpis": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+                "trajanje": "110",
+                "zanr": "Fleksibilnost",
+                "opis": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.",
+                "maxOsobe": 10
+            },
+            "-MNQftJa4rskH-dAqR9W5": {
+                "naziv": "Lorem ipsum dolor 6",
+                "kratakOpis": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+                "trajanje": "60",
+                "zanr": "Joga",
+                "opis": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.",
+                "maxOsobe": 20
+            },
+            "-MNQftJa4rskH-dAqR9W6": {
+                "naziv": "Lorem ipsum dolor 7",
+                "kratakOpis": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+                "trajanje": "140",
+                "zanr": "Snaga",
+                "opis": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.",
+                "maxOsobe": 30
+            },
+            "-MNQftJa4rskH-dAqR9W7": {
+                "naziv": "Lorem ipsum dolor 8",
+                "kratakOpis": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+                "trajanje": "130",
+                "zanr": "Cardio",
+                "opis": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.",
+                "maxOsobe": 30
+            },
+            "-MNQftJa4rskH-dAqR9W8": {
+                "naziv": "Lorem ipsum dolor 9",
+                "kratakOpis": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+                "trajanje": "110",
+                "zanr": "Snaga",
+                "opis": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.",
+                "maxOsobe": 110
+            },
+            "-MNQftJa4rskH-dAqR9W9": {
+                "naziv": "Lorem ipsum dolor 10",
+                "kratakOpis": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+                "trajanje": "130",
+                "zanr": "Joga",
+                "opis": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.",
+                "maxOsobe": 60
+            }
+
+        },
+        "-MNVEu6iMr2EFlQO6TW69": {
+          "-MNQftJa4rskH-dBqF9Z0": {
+            "naziv": "Cardio Box",
+            "kratakOpis": "Cardio Box je visoko intenzivan trening inspirisan borilačkim veštinama. Kombinuje elemente boksa, aerobika i borilačkih veština – bez fizičkog kontakta. Ovaj trening sadrži miks vežbi koje će pokrenuti celo tvoje telo – nakon zagrevanja trening nastavljaš uz niz kickova nogama i rukama. Cardio Box završava se nakon treninga snage i istezanja, uz širok osmeh!",
+            "trajanje": "90",
+            "zanr": "Cardio",
+            "opis": "Cardio Box je visoko intenzivan trening inspirisan borilačkim veštinama. Kombinuje elemente boksa, aerobika i borilačkih veština – bez fizičkog kontakta. Ovaj trening sadrži miks vežbi koje će pokrenuti celo tvoje telo – nakon zagrevanja trening nastavljaš uz niz kickova nogama i rukama. Cardio Box završava se nakon treninga snage i istezanja, uz širok osmeh! Voliš intenzivan i dinamičan trening? Onda ćeš obožavat i Cardio Box. Ovaj trening pomoći će ti da razviješ brzinu, snagu i kondiciju i eliminišeš stres – i to sve na jednom treningu. Sve benefite ovog treninga videćeš brzo – Cardio Box oblikuje telo, povećava snagu i aktivira sve mišićne grupe. Pored fizičkih benefita, trening će uticati i na tvoje raspoloženje i pomoći ti da poboljšaš samopouzdanje. Za Cardio Box neophodni su ti, kao i uvek, peškir, čiste patike i voda, ali i bandažeri i rukavice za box. Sve ostalo imamo mi!",
+            "maxOsobe": 20
+          },
+          "-MNQftJa4rskH-dBqF9Z1": {
+            "naziv": "Cirkularni trening",
+            "kratakOpis": "Cirkularni trening je po svojoj prirodi funcionalan, povećava sposobnost celog tela jer sadrži razne oblike kretanja. Kroz vežbe u kojima podižete, gurate, bacate, nosite, preskačete, povećava se funkcionalnost tela kao celine.",
+            "trajanje": "55",
+            "zanr": "Snaga",
+            "opis": "Cirkularni trening izvodi se po stanicama, svaka stanica je jedna vežba. Trening je kružnog karaktera, što znači da se prelazi sa vežbe na vežbu u kratkim vremenskim razmacima. Ovaj trening koristi kombinacije vežbi sa sopstvenom težinom i vežbe sa rekvizitima poput kettlebell-a, battle rope-a, medicinki, plio box-eva, vijača, što povećava izazov i intenzitet koji su potrebni za postizanje rezultata. Svaka stanica traje određen broj sekundi, a sam tempo izvođenja prilagođava svaki vežbač svojoj mogućnosti. Cirkularni trening je po svojoj prirodi funcionalan, povećava sposobnost celog tela jer sadrži razne oblike kretanja. Kroz vežbe u kojima podižete, gurate, bacate, nosite, preskačete, povećava se funkcionalnost tela kao celine. Sve to uz moćnu muziku i sjajne instruktore koji će te bodriti do poslednjeg ponavljanja i pomoći da postaneš fit jako brzo.",
+            "maxOsobe": 20
+          },
+          "-MNQftJa4rskH-dBqF9Z2": {
+            "naziv": "Trening snage",
+            "kratakOpis": "Fizčke promene nisu jedini benefiti kod treniranja. Trening Vas zapravo čini boljom osobom u emotivnom i mentalnom smislu. Snagom volje ili dobrovoljnim pristajanjem na poteškoće je nešto što će Vas naučiti da cenite svaku stečenu dobit u zahvalnosti i skromnosti.",
+            "trajanje": "80",
+            "zanr": "Snaga",
+            "opis": "Trening snage ima izuzetno mnogo varijeteta. Najčešće se pominje trening sa tegovima ili trening protiv otpora što možda i nije baš najbolji prevod (Resistance trening). Trening snage se može raditi sa tegovima ali sa sličnim napravama koje nemaju klasične tegove nego se teret obično dozira nekom vrstom opruga ili tegova preko sistema koturača. Na taj način se mogu trenirati svi elementi snage. Snaga, brzina, eksplozivnost te snažna i brzinska izdržljivost. Sve navedeno u sebi ima elemente snage ali se istovremeno jasno međusobno razlikuje. Tako će dizači tegova imati sasvim drugačiji trening od bodi bildera bez obzira što se u oba slučaja generalno radi o snazi. Ovaj program je namenjen za srednje iskusne vežbače, kao i za početnike. Program je naširoko korišćen i naučno potvrđen i ako ga se držite, rezultati u snazi, kao i povećanje mišićne mase su zagarantovani.",
+            "maxOsobe": 15
+          }
+        },
+        
+        "-MNVEu6iMr2EFlQO6TW60": {
+          "-MNQftJa4rskH-dBqF9Z3": {
+            "naziv": "Polimetrija",
+            "kratakOpis": "Ovo je klasičan trening snage kojim se istovremeno značajno povećava skočnost. Nezamenljiv kao trening kod skakačkih disciplina u atletici ali i u timskim sportovima kao što je odbojka, košarka, rukomet i sl.",
+            "trajanje": "90",
+            "zanr": "Snaga",
+            "opis": "Polimetrija je kao vrsta trenažnog procesa lansirana sedamdesetih godina prošlog veka, da bi osamdesetih dostigla maksimalnu popularnost koja traje do danas. Izvodi se klupicama različite visine sa kojih se skače ili na koje se naskače. Ovo je klasičan trening snage kojim se istovremeno značajno povećava skočnost. Nezamenljiv kao trening kod skakačkih disciplina u atletici ali i u timskim sportovima kao što je odbojka, košarka, rukomet i sl. Postoje različite varijante skokova sa klupice u kombinaciji sa dubinom doskoka i potom maksimalnog skoka. Opterećenje se može povećavati vešanjem tegova oko pojasa sportiste. Trening se pokazao kao dobar za razvoj snage ali zahteva izuzetan obrez da ne bi došlo do povređivanja ili upale mišića što je bolja varijanta greške. Povrede se sprečavaju dobrim zagrevanjem ali i pravilnim i postepenim doziranjem opterećenja. Oprez je neophodan zbog mnoštva ekcentričnih kontrakcija. Ova vrsta kontrakcija omogućava primenu velikog inteziteta opterećenja ali se i svaka greška u tome može „platiti“ upalom kontrahujuće muskulature.",
+            "maxOsobe": 40
+          },
+          "-MNQftJa4rskH-dBqF9Z4": {
+            "naziv": "Bakti joga",
+            "kratakOpis": "Bakti znači ljubav i predanost Bogu i njegovoj kreaciji, poštovanje i pažnju prema svim živim bićima i celokupnoj prirodi.",
+            "trajanje": "130 ",
+            "zanr": "Joga",
+            "opis": "Ona podrazumeva i ljubav prema Bogu kroz ljubav prema Išta devti (Bogu u jednoj od njegovih inkarnacija). Bog je sveprisutan. On je u nama i oko nas. Mi smo povezani sa njim jednom tananom niti, a ta nit je ljubav. Bog je univerzalna ljubav koja nas sve okružuje i prožima svojom milošću, ali mi toga nismo svesni. Kada se ta svesnost probudi, kada jednom upoznamo božansku ljubav, ne želimo više ništa drugo. Tada znamo da je Bog smisao istinske ljubavi. Čovek bez bakti je kao riba bez vode, kao ptica bez krila, kao noć bez meseca i zvezda. Svim bićima je potrebna ljubav. Sa njom se osećamo zaštićeni i srećni poput deteta u majčinom naručju, poput putnika koji se nakon dugog zamornog puta konačno vratio u svoj dom. Bakta kao dar od Boga prima sve što mu se desi. On ništa ne želi niti očekuje i u potpunosti se prepušta božjoj volji, pozdravljajući i prihvatajući svaku situaciju u koju ga dovede sudbina. Bakta ništa ne traži za sebe, a njegova molitva je: „Neka bude volja tvoja",
+            "maxOsobe": 40
+          },
+          "-MNQftJa4rskH-dBqF9Z5": {
+            "naziv": "Tajpering (Tapering)",
+            "kratakOpis": "Tajpering znači tempiranje forme da se na glavnom takmičenju postigne maksimum. Izvodi se oko desetak dana pre najvažnijeg takmičenja.",
+            "trajanje": "115",
+            "zanr": "Fleksibilnost",
+            "opis": "Tajpering je pre procedura nego što je vrsta treninga. Tajpering znači tempiranje forme da se na glavnom takmičenju postigne maksimum. Izvodi se oko desetak dana pre najvažnijeg takmičenja. Sasvim je različit tajpering za sportove tima izdržljivosti od sportova snage ili tehnike. Obično se u tom periodu smanjuje intezitet i obim treninga, mada se u poslednje vreme samo smanjuje vreme trajanja treninga što u krajnjem daje efekat. Organizam se priprema da uspostavi superkompenzaciju i da radna sposobnost dostigne najviši nivo na samom takmičenju. Tu je moguće i sprovesti ostatak procedure primene orotata, inozina i kreatina koji su sve dozvoljena sredstva a povećavaju funkcionalne sposobnosti sportiste. Ne treba posebno naglašavati značaj i psiholoških priprema. Smatra se da je vrhunac (pikng) forme moguće dostići ne više od dva puta u sezoni.",
+            "maxOsobe": 25
+          },
+          "-MNQftJa4rskH-dBqF9Z6": {
+            "naziv": "Kruzni trening",
+            "kratakOpis": "Kružni trening je relativno novijeg datuma. To je neka vrsta intervalnog treninga samo po vrstama vežbi, ali ne i po intezitetu opterećenja i periodima odmora.",
+            "trajanje": "135",
+            "zanr": "Cardio",
+            "opis": "Kružni trening je relativno novijeg datuma. To je neka vrsta intervalnog treninga samo po vrstama vežbi, ali ne i po intezitetu opterećenja i periodima odmora. Obavlja se tako što se postave stanice (mesta) gde se sportisti zaustavljaju da obave neki zadatak. Broj stanica se kreće između 5 i 10 što nije limitirano. To je broj dovoljan da se sportisti ne bi zamarali razmišljajući šta gde treba uraditi. Stanice se i fizički mogu udaljiti jedna od druge pa je u opterećenje ukombinovano i trčanje ali i ne mora da bude tako. Na svakom mestu postoji zadatak u vidu određenog ponavljanja neke vežbe. Intezitet opterećenja se dozira ili postavljanjem takve vrste vežbe koja to od sportiste traži ili skraćenjem vremena izvođenja. Na taj način ovaj trening može biti i trening snage ali i trening aerobne izdržljivosti. Kod ovog treninga nije lako dozirati opterećenje (ako sportista ne sarađuje) pa je preporučljivo pratiti ga registrujući neki od fizioloških parametra (frekvencija srca). Još preciznija promena je povremeno kontrolisati koncetraciju laktata u krvi. Dobra strana ovog treninga je raznovrsnost, što razbija monotonost i kompetitivnost. Svakom treneru je ostavljeno mašti na volju da izmišljajući varijante sprečava zasićenje treningom a opet angažuje specfičnu muskulaturu.",
+            "maxOsobe": 40
+          },
+          "-MNQftJa4rskH-dBqF9Z7": {
+            "naziv": "Karma joga",
+            "kratakOpis": "Karma joga se bavi uzrokom, delom i posledicom kroz nesebično služenje drugima. Reč karma znači činiti, delati.",
+            "trajanje": "80",
+            "zanr": "Joga",
+            "opis": "U skladu sa zakonom po kojem reakcija odgovara akciji, sve što radimo, govorimo ili mislimo ima svoju povratnu posledicu. Ono što nazivamo srećom, plod je naših prethodnih dobrih dela, a ono što nam izgleda kao udarac sudbine rezultat je našeg prethodnog negativnog delovanja.Događaji koje nam donosi sudbina nisu, dakle, slučajni. Njihov se uzrok, kao i smer kretanja nalazi u našim prošlim i sadašnjim delima. Naša je sudbina predodređena karmom, kao što je predodređen i predvidiv cilj koji će pogoditi strela koju smo odapeli, osim ako njenu putanju ne skrene neki drugi događaj. Vežbanjem joge, pozitivnim mislima, mudrošću i dobrim delima možemo ublažiti i ispraviti delovanje svojih negativnih karmi, a svoju sudbinu postupno usmeriti ka dobrom. Karma joga se bavi uzrokom, delom i posledicom kroz nesebično služenje drugima. Reč karma znači činiti, delati. Svaka naša aktivnost – disanje, govor, kretanje, ali i svaka misao i svaka reč – sve je karma, delanje. Međutim, pojam karma označava i univerzalni zakon uzroka i posledice.",
+            "maxOsobe": 12
+          }
+        },
+        "-MNVEu6iMr2EFlQO6TW55": {
+        
+        }
+    },
+    "korisnici": {
+        "-MNQo55Aw0tLdwahMZMK": {
+            "adresa": "Gogoljeva 39, Novi Sad",
+            "datumRodjenja": "1994-10-22",
+            "email": "ppetrovic@webd.com",
+            "ime": "Petar",
+            "lozinka": "petar123",
+            "prezime": "Petrović",
+            "telefon": "061456456",
+            "korisnickoIme": "petar"
+        },
+        "-MNQoCqEXydVTdCNV47C": {
+            "adresa": "Jug Bogdana 14, Zrenjanin",
+            "datumRodjenja": "1982-05-05",
+            "email": "jjovanovic@webd.com",
+            "ime": "Jovana",
+            "lozinka": "jovana123",
+            "prezime": "Jovanović",
+            "telefon": "062321321",
+            "korisnickoIme": "jovana"
+        },
+        "-MNQoJw2p9rci4Rm_rYY": {
+            "adresa": "Cara Lazara 9a, Kragujevac",
+            "datumRodjenja": "1990-09-17",
+            "email": "mmarkovic@webd.com",
+            "ime": "Marko",
+            "lozinka": "marko123",
+            "prezime": "Marković",
+            "telefon": "063876876",
+            "korisnickoIme": "marko"
+        },
+        "-MNQoR-5erkWvcm8Hdnk": {
+            "adresa": "Solunska 5, Niš",
+            "datumRodjenja": "1973-03-10",
+            "email": "ffilipovic@webd.com",
+            "ime": "Filip",
+            "lozinka": "filip123",
+            "prezime": "Filipović",
+            "telefon": "064159159",
+            "korisnickoIme": "filip"
+        },
+        "-MNQoWt_gDudX5W8TLQj": {
+            "adresa": "Ružićeva 32, Beograd",
+            "datumRodjenja": "1998-06-29",
+            "email": "ttijanic@webd.com",
+            "ime": "Tijana",
+            "lozinka": "tijana123",
+            "prezime": "Tijanić",
+            "telefon": "065753753",
+            "korisnickoIme": "tijana"
+        }
+    }
+}

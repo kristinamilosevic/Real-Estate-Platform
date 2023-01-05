@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="fitnes.css" type="text/css">
+    <link rel="stylesheet" href="styles.css" type="text/css">
 
     <title>Registracija</title>
 </head>
@@ -12,25 +12,54 @@
     <!-- ------------------- header ----------- -->
        <header>
                 <div id="mojlogo">
-                    <img id="logo" src="logo.png">
+                    <img id="logo" src="images\logo.png">
                 </div>
 
                 <div id="nav">
                     <nav>
                         <ul>
-                            <li><a href="fitnes.centri.html">Home</a></li>
+                            <li><a href="index.html">Home</a></li>
                             <li><a href="izmena_korisnika.html">Korisnici</a></li>
                             <li><a href="izmena_fc.html">Fitness Centri</a></li>
-                            <li><a href="registracija.html">Registracija</a></li>
+                            <li><button onclick="togglePopup()" class="first-button"><img id="login" src="images\login.png"></button></li>
+                            <!-- <li><a href="registracija.html"><img id="login" src="images\login.png"></a></li> -->
+                        </ul>
                     </nav>
                 </div>
         </header>
     
     <!-- ------------------- main ----------- -->
-    <div class="main">
-        <div class="container">
-        <div class="title">Registracija</div>
-        <form action="#">
+
+    <!-- Login -->
+    <div class="popup">
+        <div class="popup-content">
+        <div class=“close-btn” onclick="togglePopup()">×</div>
+        <div class="title"><i>Login</i></div>
+            <form class="content" action="#" id="LoginForm">
+                <div class="user-details">
+                    <div class="input-box">
+                        <span class="details">Username</span>
+                        <input type="text" placeholder="Unesite korisnicko ime" required>
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Lozinka</span>
+                        <input type="text" placeholder="Unesite lozinku" required>
+                    </div>
+                </div>
+                <div class="button3">
+                    <input type="submit" value="Prijava"><br>
+                    <a href="#" id="zaboravljen"><i>Nemate nalog? </i></a>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Registracija -->
+    <div class="popup">
+        <div class="popup-content">
+        <div class=“close-btn” onclick="togglePopup()">×</div>
+        <div class="title"><i>Registracija</i></div>
+        <form class="content" action="#" id="Registration">
             <div class="user-details">
                 <div class="input-box">
                     <span class="details">Ime</span>
@@ -76,9 +105,9 @@
 
     <footer>
         <div id="drustveno">
-            <img id="insta"  src="insta.png">
-            <img id="facebook" src="facebook.png">
-            <img id="wa" src="wa.png">
+            <img id="insta"  src="images\insta.png">
+            <img id="facebook" src="images\facebook.png">
+            <img id="wa" src="images\wa.png">
             <br>
             <p>GET IN TOUCH</p>
         </div>

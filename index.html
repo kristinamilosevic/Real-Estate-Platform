@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="fitnes.css" type="text/css">
+    <link rel="stylesheet" href="styles.css" type="text/css">
 
     <title>Fitness centri Novi Sad</title>
 </head>
@@ -12,16 +12,18 @@
        <!-- ------------------- header ----------- -->
        <header>
                 <div id="mojlogo">
-                    <img id="logo" src="logo.png">
+                    <img id="logo" src="images\logo.png">
                 </div>
 
                 <div id="nav">
                     <nav>
                         <ul>
-                            <li><a href="fitnes.centri.html">Home</a></li>
+                            <li><a href="index.html">Home</a></li>
                             <li><a href="izmena_korisnika.html">Korisnici</a></li>
                             <li><a href="izmena_fc.html">Fitness Centri</a></li>
-                            <li><a href="registracija.html">Registracija</a></li>
+                            <li><button onclick="togglePopup()" class="first-button"><a href="registracija.html"><img id="login" src="images\login.png"></a></button></li>
+
+                            <!-- <li><a href="registracija.html"><img id="login" src="images\login.png"></a></li> -->
                         </ul>
                     </nav>
                 </div>
@@ -39,7 +41,7 @@
             </div>
 
             <div id="desni">
-                <img id="slika1" src="slika1.jpg">
+                <img id="slika1" src="images\glvnaslika.png">
             </div>
 
         <!-- ------------------- drugi deo glavne stranice ----------- -->
@@ -47,7 +49,7 @@
         </div>
             <div class="gym">
                 <div class="gymL" id="flexL">
-                    <img class="gymimg" id="fleximg" src="flex.jpg">
+                    <img class="gymimg" id="fleximg" src="images\flex.jpg">
                 </div>
                 <div class="gymD" id="flexD">
                     <h1>Flex</h1>
@@ -58,7 +60,7 @@
 
             <div class="gym">
                 <div class="gymL" id="synergyL">
-                    <img class="gymimg" id="synergyimg" src="synergy.jpg">
+                    <img class="gymimg" id="synergyimg" src="images\synergy.jpg">
                 </div>
                 <div class="gymD" id="sinegyD">
                     <h1>Synergy</h1>
@@ -72,7 +74,7 @@
 
             <div class="gym">
                 <div class="gymL" id="profitL">
-                    <img class="gymimg" id="profitimg" src="profit.jpg">
+                    <img class="gymimg" id="profitimg" src="images\profit.jpg">
                 </div> 
                 <div class="gymD" id="profitD">
                     <h1>Pro fitnes centar</h1>
@@ -87,9 +89,9 @@
 
        <footer>
             <div id="drustveno">
-                <img id="insta"  src="insta.png">
-                <img id="facebook" src="facebook.png">
-                <img id="wa" src="wa.png">
+                <img id="insta"  src="images\insta.png">
+                <img id="facebook" src="images\facebook.png">
+                <img id="wa" src="images\wa.png">
                 <br>
                 <p>GET IN TOUCH</p>
             </div>
