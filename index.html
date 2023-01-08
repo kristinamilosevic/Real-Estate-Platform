@@ -21,9 +21,7 @@
                             <li><a href="index.html">Home</a></li>
                             <li><a href="izmena_korisnika.html">Korisnici</a></li>
                             <li><a href="izmena_fc.html">Fitness Centri</a></li>
-                            <li><button onclick="togglePopup()" class="first-button"><a href="registracija.html"><img id="login" src="images\login.png"></a></button></li>
-
-                            <!-- <li><a href="registracija.html"><img id="login" src="images\login.png"></a></li> -->
+                            <li><button onclick="togglePopup()" class="first-button"><img id="login" src="images\login.png"></button></li>
                         </ul>
                     </nav>
                 </div>
@@ -36,7 +34,7 @@
 
             <div id="levi">
                 <h1> FITNESS CENTRI <br> NOVI SAD </h1>
-                <h4> YOUR ONLY LIMIT IS YOU! </h4>
+                <h4><i> YOUR ONLY LIMIT IS YOU! </i></h4>
                 <p> Na ovoj stranici mozete pronaci neke od najboljih fitnes centara u Novom Sadu. </p>
             </div>
 
@@ -52,12 +50,13 @@
                     <img class="gymimg" id="fleximg" src="images\flex.jpg">
                 </div>
                 <div class="gymD" id="flexD">
-                    <h1>Flex</h1>
-                    <p>Disciplina je ljubav prema sebi. Voli sebe, budi sebi važan i tvoje telo će ti to uzvratiti. Pridruži se Flex porodici, porodici koja pomera granice. Pridruzi se ekipi koja pokreće, koja će biti uz tebe sve do cilja!</p>
+                    <h1 class="naziv">Flex</h1>
+                    <!-- <button class="btn1" onclick="onKorisnikEdit()">Edit</button> -->
+                    <p>Disciplina je ljubav prema sebi. Voli sebe, budi sebi važan i tvoje telo će ti to uzvratiti. Pridruži se Flex porodici, porodici koja pomera granice. Pridruzi se ekipi koja pokreće, koja će biti uz tebe sve do cilja!</p> -->
                     <button class="button" type="button"><a class="buttontxt" href="flex.html">Više...</a></button>
                 </div>
             </div>
-
+<!-- 
             <div class="gym">
                 <div class="gymL" id="synergyL">
                     <img class="gymimg" id="synergyimg" src="images\synergy.jpg">
@@ -81,10 +80,40 @@
                     <p>Savremena “Life Fitness” oprema, vrhunske cardio i “strength” mašine, tegovi svih dimenzija i težina opremaju gym po meri svih koji se bave bilo kojom vrstom treninga. Bez obzira da li ste rekreativac ili profesionalni sportista, da li je vaš cilj redukcija ili održavanje telesne težine, izgradnja mišićne mase ili jednostavno antistres i povećanje energije za svakodnevne aktivnosti - GYM PRO fitness centra će zadovoljiti vaše potrebe i ciljeve u prijatnom ambijentu.</p>
                     <button  class="button" type="button"><a class="buttontxt" href="profit.html">Više...</a></button>
                 </div>
-            </div>
+            </div> -->
 
        </div>
 
+        <!-- --------------------- login popup -------------- -->
+        <div class="popup" id="popup">
+            <div class="popup-content" id="popup-content" >
+                <div id="closePopup" onclick="togglePopup()">
+                    X
+                </div>
+                <img src="images/registracija.png" width="70px">
+
+                <div class="content" id="LoginForm">   
+                    <input type="text" placeholder="E-mail"  id="korisnickoIme">
+                    <input type="password" placeholder="Lozinka" name="sifra" id="sifra">
+                    <button type="submit" class="btn" id="btn_submit" onclick="loginHandler()">Prijava</button> <br>
+                    <a href="#" id="createAcc" onclick="switchRegistration()"><i>Nemate nalog? </i></a>
+                </div>
+
+                <div action="" class="content" id="RegForm">
+                    <input type="text" placeholder="Ime" id="ime">
+                    <input type="text" placeholder="Prezime" id="prezime">
+                    <input type="email" placeholder="Email" id="email">
+                    <input type="text" placeholder="Korisnicko Ime" id="korisnickoImeR">
+                    <input type="password" placeholder="Sifra" id="sifraR">
+                    <input type="text" placeholder="Adresa" id="adresa">
+                    <input type="text" placeholder="Datum Rodjenja" id="datumRodjenja">
+                    <input type="text" placeholder="Telefon" id="telefon">
+                    <button type="submit" class="btn" id="btn_submit" onclick="registerHandler()">Registracija</button>
+                    <a href="#" id="createAcc" onclick="switchRegistration()"><i>Imate nalog? </i></a>
+                </div> 
+            </div>
+        </div>
+    
        <!---------------footer---------------->
 
        <footer>
@@ -101,5 +130,8 @@
             <p id="copyright">&copy; Copyright 2022 - Fitness centri Novi Sad </p>
        </footer>
 
+       <script src="js\main.js"></script>
+       <script src="js\registration.js"></script>
+   
 </body>
 </html>

@@ -309,17 +309,23 @@ footer{
 }
 
 .podaciL{
-    flex: 1;
 }
 
 .podaciD{
-    flex: 2;
+}
+
+.podaciEditBtn{
+    position: absolute;
+    top: 0;
+    right: 200px;
 }
 
 #slika7{
-    width: 400px;
-    height:350px;
+    width: 175px;
+    height:150px;
     right: 0;
+    display: flex;
+    justify-self: center;
 }
 
 
@@ -399,7 +405,7 @@ form .button3 input{
 
 /* Izmena korisnika */
 
-.table1{
+.table-korisnici{
     background-color: #404040;;
     padding: 15px;
     text-align: left;
@@ -423,6 +429,7 @@ table, th, td {
     height: 55px;
     margin: 45px 0;
     background-color: #FFDEBC;
+    color: black;
     border-style: outset;
     display: inline-block;
     font-weight: 600;
@@ -441,8 +448,8 @@ table, th, td {
 /* Izmena fitnes centara  */
 
 
-.table2{
-    background-color: #404040;;
+.table-fitnes-centri{
+    background-color: #404040;
     padding: 15px;
     text-align: left;
     width: 98%;
@@ -515,3 +522,109 @@ table, th, td {
        
         }
        
+
+/* --------------------- LOGIN POPUP ------------- */
+
+.popup{
+    background: rgba(0, 0, 0, 0.6);
+    width:100%;
+    height: 100%;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+.popup-content{
+    height: 680px;
+    width: 350px;
+    background: #FFDEBC;
+    padding: 50px;
+    border-radius: 5px;
+    position: relative;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+}
+#closePopup{
+    float: right;
+    cursor: pointer;
+}
+.popup-content img{
+    display: block;
+    margin: 20px auto;
+    margin-bottom: 35px;
+}
+.popup-content form{
+    transition: transform 1s;
+}
+
+form input, button{
+    margin: 20px auto;
+    display: block;
+    background: #292929;
+    color: white;
+    /* width: 80px;
+    height: 30px; */
+}
+
+.btn1{
+    margin: 20px auto;
+    display: block;
+    width: 80px;
+    height: 30px;
+    background: #FFDEBC;
+}
+
+.content input{
+    width: 100%;
+    height: 35px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+}
+
+.btn{
+    width: 100%;
+    border: none;
+    cursor: pointer;
+    border-radius: 0;
+    height: 30px;
+}
+
+
+.content{
+    position: absolute; 
+    left: 0; 
+    right: 0; 
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 80%;
+}
+form a{
+    font-size: 12px;
+    float: left;
+}
+#forgotten{
+    float: right;   
+}
+
+
+#LoginForm{
+    display: block;
+}
+#RegForm{
+    display: none;
+}
+
+.valid{
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+    position: relative;
+}
+.valid i{
+    position: absolute;
+    top: 40px;
+    right: 10px;
+}
