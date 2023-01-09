@@ -31,7 +31,7 @@ li {
 a {
     display: block;
     padding: 8px;
-    color: black;
+    color: wheat;
     font-weight: 800;
     font-size: x-large;
     text-decoration: none;
@@ -436,6 +436,7 @@ table, th, td {
     font-size: large;
     border-radius: 12px;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    cursor: pointer;
 }
 
 .button4 a{
@@ -492,6 +493,7 @@ table, th, td {
     background: #FFDEBC;
     transition: box-shadow .35s ease !important;
     outline: none;
+    cursor: pointer;
     
     }
     

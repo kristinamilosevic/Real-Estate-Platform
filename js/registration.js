@@ -1,8 +1,7 @@
+const REGISTRATION_URL = 'https://fitnescentri-6790a-default-rtdb.firebaseio.com/korisnici';
 
-const KORISNICI_URL = 'https://fitnescentri-6790a-default-rtdb.firebaseio.com/korisnici';
-
-const fetchKorisnici = async () => {
-    const response = await fetch(KORISNICI_URL + '.json');
+const fetchUsers = async () => {
+    const response = await fetch(REGISTRATION_URL + '.json');
   
     if (response.status !== 200) {
       throw new Error();
@@ -31,7 +30,7 @@ loginHandler = async () =>{
     const email = document.getElementById('korisnickoIme').value
     const sifra = document.getElementById('sifra').value
 
-    const data = await fetchKorisnici();
+    const data = await fetchUsers();
     const isTrue = false;
     Object.keys(data).forEach((korisnikId) => {
         if(data[korisnikId].email===email && data[korisnikId].lozinka===sifra){
@@ -45,7 +44,6 @@ loginHandler = async () =>{
     }
     location.reload()
 }
-
 
 registerHandler = async () => {
     const ime = document.getElementById('ime').value
@@ -80,7 +78,7 @@ registerHandler = async () => {
 }
 
 const sacuvajKorisnika = async (podaci) => {
-    const response = await fetch(KORISNICI_URL + '.json', {
+    const response = await fetch(REGISTRATION_URL + '.json', {
       method: 'POST',
       body: JSON.stringify(podaci),
     });
