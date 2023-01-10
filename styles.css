@@ -31,7 +31,7 @@ li {
 a {
     display: block;
     padding: 8px;
-    color: wheat;
+    color: grey;
     font-weight: 800;
     font-size: x-large;
     text-decoration: none;
@@ -114,7 +114,7 @@ a {
     text-decoration: none;
     display: inline-block;
     font-size: 12px;
-
+ 
 }
 
 
@@ -181,7 +181,7 @@ footer{
 
 #slika2{
     width: 500px;
-    height:650px;
+    height:400px;
     top:250px;
     
     
@@ -191,6 +191,7 @@ footer{
     flex: 2;
     color: white;
     text-align: left;
+    line-height: 60px;
 
 }
 
@@ -565,6 +566,7 @@ table, th, td {
 
 form input, button{
     margin: 20px auto;
+    cursor: pointer;
     display: block;
     background: #292929;
     color: white;

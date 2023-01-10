@@ -13,7 +13,7 @@ const fetchIndex = async () => {
   const populateData = async () => {
     const data = await fetchIndex();
     const gymWrapper = document.getElementById('gymWrapper');
-    Object.keys(data).forEach((key) => {
+    Object.keys(data).forEach((key) => { 
       let gym = document.createElement('div');
       let gymL = document.createElement('div');
       let gymD = document.createElement('div');

@@ -20,11 +20,11 @@
                     <li><a href="index.html">Home</a></li>
                     <li><a href="izmena_korisnika.html">Korisnici</a></li>
                     <li><a href="izmena_fc.html">Fitness Centri</a></li>
-                    <li><a href="registracija.html"><img id="login" src="images\login.png"></a></li>
+                    <li><button onclick="togglePopup()" class="first-button"><img id="login" src="images\login.png"></button></li>
                 </ul>
             </nav>
         </div>
-    </header>
+</header>
 
     <!-- ------------------- main----------- -->
 
@@ -186,6 +186,36 @@
         </ul>
     </div>
 
+    <!-- --------------------- login popup -------------- -->
+    <div class="popup" id="popup">
+        <div class="popup-content" id="popup-content" >
+            <div id="closePopup" onclick="togglePopup()">
+                X
+            </div>
+            <img src="images/registracija.png" width="70px">
+
+            <div class="content" id="LoginForm">   
+                <input type="text" placeholder="E-mail"  id="korisnickoIme">
+                <input type="password" placeholder="Lozinka" name="sifra" id="sifra">
+                <button type="submit" class="btn" id="btn_submit" onclick="loginHandler()">Prijava</button> <br>
+                <a href="#" id="createAcc" onclick="switchRegistration()"><i>Nemate nalog? </i></a>
+            </div>
+
+            <div action="" class="content" id="RegForm">
+                <input type="text" placeholder="Ime" id="ime">
+                <input type="text" placeholder="Prezime" id="prezime">
+                <input type="email" placeholder="Email" id="email">
+                <input type="text" placeholder="Korisnicko Ime" id="korisnickoImeR">
+                <input type="password" placeholder="Sifra" id="sifraR">
+                <input type="text" placeholder="Adresa" id="adresa">
+                <input type="text" placeholder="Datum Rodjenja" id="datumRodjenja">
+                <input type="text" placeholder="Telefon" id="telefon">
+                <button type="submit" class="btn" id="btn_submit" onclick="registerHandler()">Registracija</button>
+                <a href="#" id="createAcc" onclick="switchRegistration()"><i>Imate nalog? </i></a>
+            </div> 
+        </div>
+    </div>
+
     <!---------------footer---------------->
 
     <footer>
@@ -202,6 +232,7 @@
         <p id="copyright">&copy; Copyright 2022 - Fitness centri Novi Sad </p>
    </footer>
 
+   <script src="js\registration.js"></script>
 
 </body>
 </html>
