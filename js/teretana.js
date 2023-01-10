@@ -25,21 +25,8 @@ const fetchTeretanaById = async (teretanaId) => {
 const prikaziPodatkeOTeretani = async (teretanaId) => {
   const teretana = await fetchTeretanaById(teretanaId);
  
-  // const podaciTeretana = document.getElementById("podaciTeretana");
 }  
  
-//   podaciTeretana.innerHTML = `
-//    <div id="podaciKorisnikaReadOnly">
-//      <p><b>Ime:</b> <span>${teretana.ime}</span></p>
-//      <p><b>Prezime:</b> <span>${teretana.prezime}</span></p>
-//      <p><b>Datum Rodjenja:</b> <span>${teretana.datumRodjenja}</span></p>
-//      <p><b>Korisničko ime:</b> <span>${teretana.korisnickoIme}</span></p>
-//      <p><b>E-mail adresa:</b> <span>${teretana.email}</span></p>
-//      <p><b>Adresa:</b> <span>${teretana.adresa}</span></p>
-//      <p><b>Broj:</b> <span>${teretana.telefon}</span></p>
-//    </div>
-//    `;
-//   }
 
 const populateData = async () => {
   const searchParams = new URLSearchParams(location.search);
