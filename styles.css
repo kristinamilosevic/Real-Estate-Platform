@@ -1,3 +1,6 @@
+body{
+    background-color: #202020;
+}
 #body1{
     background-color: #202020;
 }
@@ -49,7 +52,7 @@ a {
 }
 
 #slika1{
-    width: 600px;
+    width: 100%;
     height:650px;
     top:250px;
     right:0;
@@ -94,7 +97,7 @@ a {
 }
 
 .gymimg{
-    width: 500px;
+    width: 30vw;
     height:300px;
     right:0;
 }
@@ -310,6 +313,7 @@ footer{
 }
 
 .podaciL{
+    padding: 30px;
 }
 
 .podaciD{
@@ -479,6 +483,28 @@ table, th, td {
 
 }
 
+@media only screen and (max-width: 800px){
+    #glavnigym{
+        display: block;
+    }
+    #slika2{
+        width: 100%;
+    }
+}
+
+
+@media only screen and (max-width: 600px){
+    #glavni{
+        display: block;
+    }
+    .gym{
+        display: block;
+    }
+    .gym img{
+        width: 100%;
+    }
+}
+
 
 /* button */
 
@@ -580,6 +606,7 @@ form input, button{
     width: 80px;
     height: 30px;
     background: #FFDEBC;
+    color: grey;
 }
 
 .content input{

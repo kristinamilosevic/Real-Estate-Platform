@@ -5,10 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css" type="text/css">
-
-    <title>Izmena fitnes centara</title>
+    <title>Detalji o korisniku</title>
 </head>
-<body id="body1">
+<body>
      <!-- ------------------- header ----------- -->
      <header>
         <div id="mojlogo">
@@ -28,16 +27,14 @@
     </header>
 
     <!-- ------------------- main ----------- -->
+        <div class="detalji">
+            <div class="podaciL">
+                <button class="btn1" onclick="onFitnesCentarEdit()">Edit</button>
+            </div>
+            <div class="podaciD" id="podaciFitnesCentra">
 
-    <div class="table2">
-        <table class="table-fitnes-centri">
-            <tr>
-                <th>Ime</th>
-                <th>Obrisi</th>
-                <th>Izmeni</th>
-            </tr>
-        </table>
-    </div>
+            </div>
+        </div>
     
     <!-- --------------------- login popup -------------- -->
     <div class="popup" id="popup">
@@ -67,7 +64,7 @@
                 <a href="#" id="createAcc" onclick="switchRegistration()"><i>Imate nalog? </i></a>
             </div> 
         </div>
-    </div>
+    </div>    
 
     <!---------------footer---------------->
 
@@ -86,7 +83,15 @@
    </footer>
 
    <script src="js\fitnes_centri.js"></script>
-   <script src="js\registration.js"></script>
+   <script>
 
+     const searchParams = new URLSearchParams(location.search);
+     const fitnesCentarId = searchParams.get("fitnesCentar");
+
+     prikaziPodatkeOFitnesCentru(fitnesCentarId);
+   </script>
+
+   <script src="js\registration.js"></script>
+   
 </body>
 </html>
